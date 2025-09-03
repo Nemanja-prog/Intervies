@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paws n' Play</title>
+  <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">
+  <script src="js/index.js" defer></script>
+</head>
+<body>
+  <div class="desktop-breakpoint-1">
+    <div class="frame-30-2">
+      <div class="hero-section">
+        <img src="img/dog.png" alt="Dog Background" class="hero-bg">
+        <nav class="navbar">
+          <div class="navbar-left">
+            <img src="img/vector-271.svg" alt="Paws n’ Play Logo">
+            <div class="company-name">Paws n’ Play</div>
+          </div>
+          <div class="navbar-center">
+            <a href="#shop" class="has-dropdown">Shop</a>
+            <a href="#services" class="has-dropdown">Services</a>
+            <a href="#aboutUs">About Us</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="navbar-right">
+            <button class="btn">Get Started</button>
+          </div>
+          <div class="hamburger">&#9776;</div>
+          <div class="mobile-menu">
+            <a href="#shop" class="has-dropdown">Shop</a>
+            <a href="#services" class="has-dropdown">Services</a>
+            <a href="#aboutUs">About Us</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+            <button class="btn">Get Started</button>
+          </div>
+        </nav>
+        <div class="hero-text">
+          <h1>Pawsitively Perfect: Where Every Pet's Dream Comes True!</h1>
+          <p>
+            Welcome to Paws n’ Play, the ultimate destination for pet lovers!
+            Explore a world of tail-wagging joy and furry companionship with our
+            wide range of products and services. From pampering essentials to
+            playful toys, we're here to make every moment with your pet
+            pawsitively perfect!
+          </p>
+          <button class="btn-transparent">
+            Shop Now <img src="img/vector-271.svg" alt="Paws n’ Play Logo">
+          </button>
+        </div>
+      </div>
+
+      <div class="shop-4" id="shop">
+        <div class="shop-section-header">
+          <img src="img/vector-34.svg" class="vector-34" alt="vector">
+          <p class="text-35"><span class="shop-title">Shop</span></p>
+        </div>
+        <hr class="divider">
+        <div class="container-5">
+          <div class="featured-product-6">
+            <p class="section-title">Featured Products</p>
+            <div class="category-buttons">
+              <button class="active" onclick="showImages('random')">Random</button>
+              <button onclick="showImages('cat')">Cat</button>
+              <button onclick="showImages('dogs')">Dogs</button>
+              <button onclick="showImages('fish')">Fish</button>
+              <button onclick="showImages('birds')">Birds</button>
+              <div id="imageContainer"></div>
+            </div>
+            <div class="product-row">
+              <div class="product-card">
+                <img src="img/node-25.png" alt="Product 1">
+                <div class="overlay-text">
+                  <h3>Multivitamin For Cat</h3>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="hearts">
+                  <img src="img/left_half_heart.png" alt="left heart">
+                  <img src="img/right_half_heart.png" alt="right heart">
+                </div>
+                <div class="quantity">
+                  <button class="decrease">-</button>
+                  <span class="count">0</span>
+                  <button class="increase">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+              <div class="product-card">
+                <img src="img/node-27.png" alt="Product 2">
+                <div class="overlay-text">
+                  <h3>Cat Food</h3>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="hearts">
+                  <img src="img/left_half_heart.png" alt="left heart">
+                  <img src="img/right_half_heart.png" alt="right heart">
+                </div>
+                <div class="quantity">
+                  <button class="decrease">-</button>
+                  <span class="count">0</span>
+                  <button class="increase">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+              <div class="product-card">
+                <img src="img/node-29.png" alt="Product 3">
+                <div class="overlay-text">
+                  <h3>Dog Food</h3>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="hearts">
+                  <img src="img/left_half_heart.png" alt="left heart">
+                  <img src="img/right_half_heart.png" alt="right heart">
+                </div>
+                <div class="quantity">
+                  <button class="decrease">-</button>
+                  <span class="count">0</span>
+                  <button class="increase">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+              <div class="product-card extra">
+                <img src="img/bowl.png" alt="Product 4">
+                <div class="overlay-text">
+                  <h3>Pet Plate</h3>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="hearts">
+                  <img src="img/left_half_heart.png" alt="left heart">
+                  <img src="img/right_half_heart.png" alt="right heart">
+                </div>
+                <div class="quantity">
+                  <button class="decrease">-</button>
+                  <span class="count">0</span>
+                  <button class="increase">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+              <div class="product-card extra">
+                <img src="img/bottle_bird.png" alt="Product 5">
+                <div class="overlay-text">
+                  <h3>Bird Water</h3>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="hearts">
+                  <img src="img/left_half_heart.png" alt="left heart">
+                  <img src="img/right_half_heart.png" alt="right heart">
+                </div>
+                <div class="quantity">
+                  <button class="decrease">-</button>
+                  <span class="count">0</span>
+                  <button class="increase">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+              <div class="product-card extra">
+                <img src="img/bottle1.png" alt="Product 6">
+                <div class="overlay-text">
+                  <h3>Dog Water</h3>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="hearts">
+                  <img src="img/left_half_heart.png" alt="left heart">
+                  <img src="img/right_half_heart.png" alt="right heart">
+                </div>
+                <div class="quantity">
+                  <button class="decrease">-</button>
+                  <span class="count">0</span>
+                  <button class="increase">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+            </div>
+            <p class="view-more">View More &gt;&gt;&gt;</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="services-section-header" id="services">
+        <img src="img/vector-58.svg" alt="Services Icon" class="services-icon">
+        <span class="services-title">Services</span>
+        <hr class="services-title-divider">
+      </div>
+      <section class="services-section">
+        <div class="container">
+          <div class="services-grid">
+            <div class="grid-left">
+              <div class="service-card" id="grooming">
+                <img src="img/node-41.png" alt="Grooming">
+                <p>Grooming</p>
+                <button>Learn More</button>
+              </div>
+              <div class="service-card" id="boarding">
+                <img src="img/image-2-44.png" alt="Boarding">
+                <p>Boarding</p>
+                <button>Learn More</button>
+              </div>
+              <div class="service-card" id="veterinary">
+                <img src="img/image-3-47.png" alt="Veterinary">
+                <p>Veterinary</p>
+                <button>Learn More</button>
+              </div>
+              <div class="service-card" id="training">
+                <img src="img/image-1-50.png" alt="Training">
+                <p>Training</p>
+                <button>Learn More</button>
+              </div>
+            </div>
+            <div class="service-card big" id="adoption">
+              <img src="img/node-53.png" alt="Adoption">
+              <p>Adoption</p>
+              <button>Learn More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="about-section-header" id="aboutUs">
+        <img src="img/vector-74.svg" alt="vector" class="about-icon">
+        <span class="about-title">About Us</span>
+        <hr class="about-title-divider">
+      </div>
+      <section class="about-section">
+        <div class="container">
+          <div class="about-content">
+            <div class="about-text">
+              <p>
+                At Paws n’ Play, our journey began with a simple yet profound love for animals.
+                Inspired by the unwavering companionship and joy they bring to our lives, we embarked
+                on a mission to create a haven where pets and their owners alike could experience
+                unparalleled happiness and care. Driven by our passion for animal welfare, we
+                hand-select each product and service with meticulous attention to quality and
+                sustainability. From nutritious food and enriching toys to expert grooming and
+                healthcare, every offering is carefully curated to meet the unique needs of our
+                beloved furry friends. But our commitment doesn't end there. We're dedicated to
+                fostering a community that celebrates the bond between pets and their human
+                companions. Through educational resources, compassionate support, and memorable
+                experiences, we strive to empower pet owners to provide the best possible care
+                for their furry family members. At Paws n’ Play, customer satisfaction isn't just
+                a goal – it's our guiding principle. We go above and beyond to ensure every
+                interaction leaves tails wagging and hearts smiling. From personalized
+                recommendations to attentive service, we're here to make your journey with your
+                pet as joyful and fulfilling as possible. Welcome to Paws n’ Play, where pets are family.
+              </p>
+            </div>
+            <div class="about-images">
+              <div class="big-image">
+                <img src="img/node-66.png" alt="Big Image">
+              </div>
+              <div class="small-image">
+                <img src="img/node-69.png" alt="Small Image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="team-section">
+        <header class="team-header">
+          <img src="img/vector-74.svg" alt="vector" class="team-icon">
+          <h2>Our Team</h2>
+        </header>
+        <hr class="divider">
+        <div class="team-container">
+          <article class="team-member">
+            <img src="img/unsplash-deqaybedrqe-85.png" alt="Dr. Olivia Rhye" class="member-photo">
+            <div class="member-info">
+              <p class="member-name">Dr. Olivia Rhye</p>
+              <p class="member-role">Senior Veterinarian</p>
+              <div class="social-icons">
+                <a href="https://x.com/" target="_blank"><img src="img/vector-108.svg" alt="Twitter"></a>
+                <a href="https://rs.linkedin.com/" target="_blank" rel="noopener noreferrer"><img src="img/vector-111.svg" alt="Linkedin"></a>
+                <a href="https://dribbble.com/" target="_blank"><img src="img/vector-113.svg" alt="Dribble"></a>
+              </div>
+            </div>
+          </article>
+          <article class="team-member">
+            <img src="img/unsplash-o13b7surg4a-100.png" alt="Phoenix Baker" class="member-photo">
+            <div class="member-info">
+              <p class="member-name">Phoenix Baker</p>
+              <p class="member-role">Asst. Veterinarian</p>
+              <div class="social-icons">
+                <a href="https://x.com/" target="_blank"><img src="img/vector-108.svg" alt="Twitter"></a>
+                <a href="https://rs.linkedin.com/" target="_blank" rel="noopener noreferrer"><img src="img/vector-111.svg" alt="Linkedin"></a>
+                <a href="https://dribbble.com/" target="_blank"><img src="img/vector-113.svg" alt="Dribble"></a>
+              </div>
+            </div>
+          </article>
+          <article class="team-member">
+            <img src="img/unsplash-e6vo_4i-3xg-115.png" alt="Lana Steiner" class="member-photo">
+            <div class="member-info">
+              <p class="member-name">Lana Steiner</p>
+              <p class="member-role">Resident Veterinarian</p>
+              <div class="social-icons">
+                <a href="https://x.com/" target="_blank"><img src="img/vector-108.svg" alt="Twitter"></a>
+                <a href="https://rs.linkedin.com/" target="_blank" rel="noopener noreferrer"><img src="img/vector-111.svg" alt="Linkedin"></a>
+                <a href="https://dribbble.com/" target="_blank"><img src="img/vector-113.svg" alt="Dribble"></a>
+              </div>
+            </div>
+          </article>
+          <article class="team-member">
+            <img src="img/unsplash-egbmotqxf04-130.png" alt="Demi Wilkinson" class="member-photo">
+            <div class="member-info">
+              <p class="member-name">Demi Wilkinson</p>
+              <p class="member-role">Intern Veterinarian</p>
+              <div class="social-icons">
+                <a href="https://x.com/" target="_blank"><img src="img/vector-108.svg" alt="Twitter"></a>
+                <a href="https://rs.linkedin.com/" target="_blank" rel="noopener noreferrer"><img src="img/vector-111.svg" alt="Linkedin"></a>
+                <a href="https://dribbble.com/" target="_blank"><img src="img/vector-113.svg" alt="Dribble"></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="blog-section" id="blog">
+        <header class="blog-header">
+          <div class="blog-title-wrapper">
+            <img src="img/vector-74.svg" alt="vector" class="blog-icon">
+            <h2 class="blog-title">Blog</h2>
+          </div>
+          <hr class="divider">
+        </header>
+        <div class="blog-container">
+          <div class="blog-content">
+            <article class="blog-post">
+              <h3 class="blog-post-title">Milestone: 20,000 Pets Treated</h3>
+              <hr class="post-divider">
+              <p class="blog-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, possimus? Provident illo veritatis, culpa laboriosam velit aut officia incidunt sed nobis natus voluptatibus eaque repudiandae quisquam exercitationem quibusdam neque mollitia!</p>
+              <h4 class="blog-subtitle">Renewed target</h4>
+              <p class="blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatem cumque sint modi laudantium doloribus placeat iure delectus ipsam, odit et impedit dignissimos esse sequi veritatis velit quod quia omnis.</p>
+              <button class="btn-read-more">Read more</button>
+            </article>
+          </div>
+          <div class="blog-image-wrapper">
+            <img src="img/image-163.png" alt="Blog image" class="blog-image">
+          </div>
+        </div>
+      </section>
+
+      <div class="contact-section-header" id="contact">
+        <img src="img/vector-271.svg" alt="Paws n’ Play Logo" class="contact-logo">
+        <span class="contact-title">Get in touch</span>
+        <hr class="contact-title-divider">
+      </div>
+      <section class="contact-section">
+        <div class="contact-container">
+          <form class="contact-form">
+            <div class="form-row">
+              <label><span>First name</span><input type="text" name="first-name" placeholder="First name"></label>
+              <label><span>Last name</span><input type="text" name="last-name" placeholder="Last name"></label>
+            </div>
+            <label><span>Email</span><input type="email" name="email" placeholder="you@company.com"></label>
+            <label><span>Message</span><textarea name="message" placeholder="Write your message…"></textarea></label>
+            <label class="checkbox"><input type="checkbox" name="privacy"><span>You agree to our friendly privacy policy.</span></label>
+            <button type="submit" class="btn-submit">Send message</button>
+          </form>
+          <aside class="contact-info">
+            <div class="info-row">
+              <div class="info">
+                <img src="img/icon-213.svg" alt="Email">
+                <h3>Email</h3>
+                <p>Our friendly team is here to help.</p>
+                <div class="info-box"><a href="mailto:hello@pawsnplay.com">hello@pawsnplay.com</a></div>
+              </div>
+              <div class="info">
+                <img src="img/icon-222.svg" alt="Live chat">
+                <h3>Live chat</h3>
+                <p>Our friendly team is here to help.</p>
+                <div class="info-box"><button>Start new chat</button></div>
+              </div>
+            </div>
+            <div class="info-row">
+              <div class="info">
+                <img src="img/icon-232.svg" alt="Office">
+                <h3>Office</h3>
+                <p>Come say hello at our office HQ.</p>
+                <div class="info-box"><p>123, Yaya Abatan st, Ogba Lagos.</p></div>
+              </div>
+              <div class="info">
+                <img src="img/icon-241.svg" alt="Phone">
+                <h3>Phone</h3>
+                <p>Mon-Fri from 8 am to 5 pm.</p>
+                <div class="info-box"><a href="tel:+234901234384">+234 901234 384</a></div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <footer class="footer-248">
+        <hr class="footer-top-divider">
+        <section class="newsletter">
+          <div class="newsletter-left">
+            <h2>Join our Newsletter</h2>
+            <p>Be the first to receive the latest updates on promos, sales, and offers</p>
+          </div>
+          <div class="newsletter-right">
+            <form class="newsletter-form">
+              <input type="email" name="newsletter-email" placeholder="Enter your email">
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </section>
+        <section class="site-info">
+          <div class="logo">
+            <img src="img/vector-271.svg" alt="Paws n’ Play Logo">
+            <span>Paws n’ Play</span>
+          </div>
+          <p>Where wagging tails and purring hearts reign supreme!</p>
+        </section>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <div class="nav-section">
+            <h4>Shop</h4>
+            <ul class="footer-links">
+              <li><a href="#adoption">Pet Adoption</a></li>
+              <li><a href="#">Nutrition</a></li>
+              <li><a href="#">Pet Care</a></li>
+              <li><a href="#">Pet Food</a></li>
+              <li><a href="#">Pricing</a></li>
+            </ul>
+          </div>
+          <div class="nav-section">
+            <h4>Company</h4>
+            <ul class="footer-links">
+              <li><a href="#aboutUs">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="nav-section">
+            <h4>Services</h4>
+            <ul class="footer-links">
+              <li><a href="#grooming">Grooming</a></li>
+              <li><a href="#boarding">Boarding</a></li>
+              <li><a href="#training">Training</a></li>
+              <li><a href="#veterinary">Veterinary</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+          </div>
+          <div class="nav-section">
+            <h4>Social</h4>
+            <ul class="footer-links">
+              <li><a href="https://x.com/" target="_blank">Twitter</a></li>
+              <li><a href="https://rs.linkedin.com/" target="_blank">LinkedIn</a></li>
+              <li><a href="https://www.facebook.com/?locale=sr_RS" target="_blank">Facebook</a></li>
+              <li><a href="https://www.angellist.com/" target="_blank">AngelList</a></li>
+              <li><a href="https://dribbble.com/" target="_blank">Dribble</a></li>
+            </ul>
+          </div>
+          <div class="nav-section">
+            <h4>Legal</h4>
+            <ul class="footer-links">
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Cookies</a></li>
+              <li><a href="#">Licenses</a></li>
+              <li><a href="#">Settings</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="legal">
+          <p>© 2024 Paws n’ Play. All rights reserved.</p>
+          <div class="social-icons">
+            <a href="https://x.com/" target="_blank"><img src="img/vector-108.svg" alt="Twitter"></a>
+            <a href="https://rs.linkedin.com/" target="_blank"><img src="img/vector-111.svg" alt="Linkedin"></a>
+            <a href="https://www.facebook.com/?locale=sr_RS" target="_blank"><img src="img/vector-401.svg" alt="Facebook"></a>
+            <a href="https://github.com/" target="_blank"><img src="img/icon-403.svg" alt="GitHub"></a>
+            <a href="https://www.angellist.com/" target="_blank"><img src="img/vector-405.svg" alt="AngelList"></a>
+            <a href="https://dribbble.com/" target="_blank"><img src="img/vector-407.svg" alt="Other"></a>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+  </div>
+</body>
+</html>
